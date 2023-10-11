@@ -10,8 +10,24 @@ var Myacount = {
 
     if (account == Myacount.account && password == Myacount.password) {
         alert("Đăng nhập thành công");
-        window.location.href = "main.html";
+        window.location.href = "login.html";
     } else {
         alert("ERROR"); 
+    }
+}
+function register(){
+    window.location.href = "register.html";
+}
+function registerascess(){
+    
+    var username = document.getElementById("username").value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+
+    
+    if (username && email && password) {
+        alert("Đăng ký thành công!");
+    } else {
+        alert("Vui lòng điền đầy đủ thông tin.");
     }
 }
