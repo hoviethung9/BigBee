@@ -19,7 +19,6 @@
 input[type="text"],
 input[type="email"],
 input[type="password"] 
-
 {
   width: 300px; /* Độ rộng */
   padding: 10px; /* Khoảng cách bên trong */
@@ -31,6 +30,16 @@ label {
   display: block;
   text-align: center; /* Căn giữa ngang */
   margin-top: 10px; /* Căn giữa dọc */
+}
+h1 {
+  text-align: center; /* Căn giữa tiêu đề theo chiều ngang */
+}
+
+button{
+  display: block;
+  text-align: center; /* Căn giữa ngang */
+  margin: 0 auto ;
+   
 }
 
 
