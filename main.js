@@ -15,6 +15,9 @@ var Myacount = {
         alert("ERROR"); 
     }
 }
+function Loginascess(){
+    window.location.href = "INDEX.html";
+}
 function register(){
     window.location.href = "register.html";
 }
