@@ -16,3 +16,30 @@
     width: 200px; /* Đặt chiều rộng của logo */
     height: auto; /* Để tự động điều chỉnh chiều cao để giữ tỷ lệ khung hình */
 }
+input[type="text"],
+input[type="email"],
+input[type="password"] 
+
+{
+  width: 300px; /* Độ rộng */
+  padding: 10px; /* Khoảng cách bên trong */
+  font-size: 16px; /* Cỡ chữ */
+  display: block; /* Chuyển sang chế độ hiển thị block để sử dụng thuộc tính margin: 0 auto; */
+  margin: 0 auto; /* Để căn giữa ngang */
+}
+label {
+  display: block;
+  text-align: center; /* Căn giữa ngang */
+  margin-top: 10px; /* Căn giữa dọc */
+}
+
+
+
+
+
+
+
+
+
+
+
