@@ -1,0 +1,10 @@
+{
+  "rules": {
+    ".read": "auth != null",   // Chỉ cho phép đọc dữ liệu cho người dùng đã đăng nhập
+    ".write": "auth != null",  // Chỉ cho phép ghi dữ liệu cho người dùng đã đăng nhập
+    "data": {
+      ".read": "auth.uid == data.child('owner').val()",  // Chỉ cho phép đọc nếu người đọc là chủ sở hữu
+      ".write": "auth.uid == data.child('owner').val()"  // Chỉ cho phép ghi nếu người ghi là chủ sở hữu
+    }
+  }
+}
