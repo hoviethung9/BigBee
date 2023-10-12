@@ -32,6 +32,7 @@ function registerascess(){
         alert("Đăng ký thành công!");
         alert("Đăng ký thành công!");
         alert("Đăng ký thành công!");
+        alert("Đăng ký thành công!");
         window.location.href = "INDEX.html";
     } else {
         alert("Vui lòng điền đầy đủ thông tin.");
